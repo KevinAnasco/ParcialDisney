@@ -1,24 +1,169 @@
-.container img{
-    height: 20px;
-    width: 30px;
+.container{
+    font-size: 1rem;
+    background-color: #eee;
 }
 
-.header{
-    font-size: 5rem;
-    margin: 5rem 2rem;
-    flex: auto;
-    font-size: 5rem;
+.container-img{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.texto-imagenes{
+    height: 20px;
+    width: 10px;
+    font-size: 2rem;
+    background-color: aqua;
+
+}
+
+.banner{
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+.bannerGrande{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+}
+
+
+.bannerPequeño{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 100%;
+}
+
+.banner p{
+    font-size: 2rem;
     color: aliceblue;
 }
 
+.banner button{
+    height: 50px;
+    width: 200px;
+    border-radius: 35px;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: relative;
+}
 
-.header-textos ul li{
-    font-size: 5rem;
-    flex: auto;
-    flex-direction: left;
+.button-ticket{
+    background-color: red;
+    color: black;
+    border: none;
+    border: solid transparent;
+}
+
+.button-learn{
+    background-color: transparent;
+    border: solid white 1px;
+    color: white;
+}
+
+
+
+.productos{
+    background-color: rgb(84, 80, 160);
+}
+
+
+.productos-texto{
+    background-color: yellow;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.productos h4{
+    font-size: 1rem;
+    color:black
+}
+
+.productos p{
+    text-align: center;
+}
+
+.productos a{
+    font-weight: bold;
+    color: black;
+}
+
+
+.productos img{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+.disney-plus{
+    background-color: rgb(15, 97, 97);
+}
+
+.disney-plus h2{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.disney-plus p{
     font-size: 1rem;
     color: aliceblue;
 }
 
+.disney-plus img{
+    width: 300px;
+    height: 150px;
+}
+
+.estrenos{
+    background-color: #eee;
+}
+
+.estrenos h3{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.estrenos p{
+    font-size: 1rem;
+}
+
+.estrenos img{
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.parques-texto{
+    margin-bottom: 1rem;
+}
+
+.parques h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.parques p{
+    font-size: 1rem;
+}
+
+.parques a{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.parques img{
+    width: 350px;
+    height: 200px;
+}
 
 
