@@ -1,0 +1,24 @@
+.container img{
+    height: 20px;
+    width: 30px;
+}
+
+.header{
+    font-size: 5rem;
+    margin: 5rem 2rem;
+    flex: auto;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+
+.header-textos ul li{
+    font-size: 5rem;
+    flex: auto;
+    flex-direction: left;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+
+
