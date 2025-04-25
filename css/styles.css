@@ -1,6 +1,19 @@
 .container{
     font-size: 1rem;
     background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+.container nav{
+    font-size: 2rem;
 }
 
 .container-img{
@@ -12,27 +25,25 @@
     height: 20px;
     width: 10px;
     font-size: 2rem;
-    background-color: aqua;
-
+    background-color: aqua
 }
 
 .banner{
+    width: 100%;
     height: 200px;
-    width: 200px;
-    display: none;
 }
 
 .bannerGrande{
     width: 100%;
-    height: 60%;
-    position: absolute;
+    height: 100%;
+    grid-column: 1/-1;
+    grid-row:3/4;
 }
 
 
 .bannerPequeño{
     width: 300px;
     height: 200px;
-    position: relative;
     margin: 100%;
 }
 
@@ -48,7 +59,6 @@
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
     font-weight: bold;
-    position: relative;
 }
 
 .button-ticket{
@@ -158,7 +168,6 @@
 .parques a{
     font-weight: bold;
     color: black;
-    text-align: center;
 }
 
 .parques img{
