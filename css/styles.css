@@ -35,7 +35,7 @@ form{
 .search-form form{
     display: flex;
     margin-top: 20px;
-    margin-left: 1000px;
+    margin-left: 100px
 
 }
 
@@ -378,6 +378,8 @@ li{
 
 .nav-footer ul li  {
     text-decoration: none;
-
   }
+ 
+
+ 
 
