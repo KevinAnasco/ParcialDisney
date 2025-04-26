@@ -6,32 +6,32 @@
   <title>La Sirena</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
   <div class="container">
     <header>
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo de La Sirena">
-      </div>
-      
-      <nav>
-        <ul>
-          <li><a href="">Disney+</a></li>
-          <li><a href="">Parks & Travels</a></li>
-          <li><a href="">Movies</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Login</a></li>
-        </ul>
-      </nav>
-      <form action="" method="get" class="search-form">
-        <input type="text" id="texto" name="texto" placeholder="Buscar">
-      </form>
-    </header>
+        <img class="logo" src="images/logo.png" alt="Logo de La Sirena">
+        <nav>
+          <ul>
+            <li><a href="#">Disney+</a></li>
+            <li><a href="#">Parks & Travels</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </nav>
+
+        <div class="search-form">
+          <form action="" method="get">
+            <p>LOG IN</p>
+            <input type="text" id="texto" name="texto" placeholder="Buscar">
+          </form>
+        </div>
+        
+      </header>
+  </div>
 
     <main>
-
-  
       <section class="banner">
         <img class="bannerGrande" src="images/banner-background.png" alt="Fondo del banner">
         <img  class="bannerPequeño" src="images/snow-white.png" alt="Imagen de Blancanieves">
@@ -42,32 +42,37 @@
 
       
       <section class="productos">
-        <article class="productos-texto">
-          <img src="images/shop-image-1.png" alt="Producto destacado 1">
-          <h4>A Special Performans</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <a href="">WHATCH DOGS</a>
+        <article class="imagen-1">
+            <img src="images/shop-image-1.png" alt="Producto destacado 1">
+            <div class="color-1">
+              <h4>A Special Performans</h4>
+              <p>Rachel Zegler Performs "Waiting on a Wish" at the Castle That inspired the Original. Snow White</p>
+              <a href="">WATCH NOW</a>
+            </div>
+            
         </article>
         
-        <article class="productos-texto">
-          <img src="images/shop-image-2.png" alt="Producto destacado 2">
-          <h4>The Arth of Fairlytales</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <a href="">WHATCH DOGS</a>
+        <article class="imagen-2">
+            <img src="images/shop-image-2.png" alt="Producto destacado 2">
+            <div class="color-2">
+              <h4>The Arth of Fairlytales</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <a href="">WATCH NOW</a>
+            </div>
         </article>
 
-        <article class="productos-texto">
-          <img src="images/shop-image-3.png" alt="Producto destacado 3">
-          <h4>Disney Store</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <a href="">WHATCH DOGS</a>
+        <article class="imagen-3">
+            <img src="images/shop-image-3.png" alt="Producto destacado 3">
+            <h4>Disney Store</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="">WATCH NOW</a>
         </article>
 
-        <article class="productos-texto">
-          <img src="images/shop-image-4.png" alt="Producto destacado 4">
-          <h4>A musical Consersation whit y ect</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <a href="">WHATCH DOGS</a>
+        <article class="imagen-4">
+            <img src="images/shop-image-4.png" alt="Producto destacado 4">
+            <h4>A musical Consersation whit y ect</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="">WATCH NOW</a>
         </article>
 
       </section>
@@ -75,58 +80,66 @@
 
       <section class="disney-plus">
         <h2>Explora más películas en Disney+</h2>
-        <article>
-          <img src="images/disney-plus-1.png" alt="Película Disney+ 1">
+        <article class="portada-1">
+          <img class="imagen-disney-1" src="images/disney-plus-1.png" alt="Película Disney+ 1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <a href="">AVAILABLE ON DISNEY+</a>
         </article>
-        <article>
-          <img src="images/disney-plus-2.png" alt="Película Disney+ 2">
+
+        <article class="portada-2">
+          <img class="imagen-disney-2" src="images/disney-plus-2.png" alt="Película Disney+ 2">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <a href="">AVAILABLE ON DISNEY+</a>
         </article>
-        <article>
-          <img src="images/disney-plus-3.png" alt="Película Disney+ 3">
+
+        <article class="portada-3">
+          <img class="imagen-disney-3"  src="images/disney-plus-3.png" alt="Película Disney+ 3">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <a href="">AVAILABLE ON DISNEY+</a>
         </article>
+
       </section>
 
       <aside class="estrenos">
-        <h3>Próximos estrenos en Disney+</h3>
-        <article>
-          <img src="images/movies-1.jpeg" alt="Estreno 1">
+        <h3 class="encabezado-estrenos">Próximos estrenos en Disney+</h3>
+        <article class="estreno-1">
+          <img class="img-estreno-1" src="images/movies-1.jpeg" alt="Estreno 1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </article>
 
-        <article>
-          <img src="images/movies-2.jpeg" alt="Estreno 2">
+        <article class="estreno-2">
+          <img class="img-estreno-2" src="images/movies-2.jpeg" alt="Estreno 2">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </article>
 
-        <article>
-          <img src="images/movies-3.jpeg" alt="Estreno 3">
+        <article class="estreno-3">
+          <img class="img-estreno-3" src="images/movies-3.jpeg" alt="Estreno 3">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </article>
         
-        <article>
-          <img src="images/movies-4.jpeg" alt="Estreno 4">
+        <article class="estreno-4">
+          <img class="img-estreno-4" src="images/movies-4.jpeg" alt="Estreno 4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </article>
+
+        <article class="estreno-5">
+          <img class="img-estreno-5" src="images/movies-5.jpeg" alt="Estreno 4">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </article>
       </aside>
 
 
       <aside class="parques">
-        <h3>Vacaciones en los parques de Disney</h3>
-        <article class="parques-texto" >
-          <img src="images/disney-parks-1.png" alt="Parque Disney 1">
+        <h3 class="encabezado-parques">Vacaciones en los parques de Disney</h3>
+        <article class="parque-1" >
+          <img class="img-parque-1" src="images/disney-parks-1.png" alt="Parque Disney 1">
           <h4>Disneyland Resort</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           <a href="">Learn More</a>
         </article>
 
-        <article class="parques-texto">
-          <img src="images/disney-parks-2.png" alt="Parque Disney 2">
+        <article class="parque-2">
+          <img class="img-parque-2" src="images/disney-parks-2.png" alt="Parque Disney 2">
           <h4>Disneyland Resort</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
           <a href="">Learn More</a>
