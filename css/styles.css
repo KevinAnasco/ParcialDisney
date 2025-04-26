@@ -1,25 +1,46 @@
+/* INICIO HEADER */
 .container{
     background-color: #eee;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row: 1fr;
 }
 
 .container .logo{
-    width: 200px;
+    width: 250px;
     height: 100px;
+    margin-top: 3%;
+    margin-left: 24%;
 }
 
-.container ul{
-    font-weight: bold;
-    color: black;
-    font-size: 60px;
+.container .organizar-header ul{
+    font-size: 50px;
+    display: inline-flex;
+    margin-top: -1%;
+    margin-left: -10%;
+}
+
+.container .organizar-header li{
     list-style: none;
-    justify-self: en;
+    margin-top: 4%;
+    margin-left: 10%;
 }
 
-.container li{
-    text-align: left;
+.container p{
+    font-size: 30px;
+    margin-left: 90%;
+    margin-top: 4%;
 }
+
+.container input{
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 1%;
+    text-align: left;
+    width: 200px;
+    height: 45px;
+}
+/* FINAL HEADER */
 
 /* APARTADO FONDO INICIAL */
 .banner{
@@ -52,7 +73,7 @@
     color: aliceblue;
     grid-column: 2/3;
     grid-row: 2/2;
-    margin-left: -40%;
+    margin-left: -30%;
     margin-top: -4%;
 }
 
@@ -62,7 +83,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 45px;
-    margin-left: -25%;
+    margin-left: -20%;
     grid-column: 2/3;
     grid-row: 2/2;
 }
@@ -94,7 +115,6 @@
     text-align: center;
     margin-bottom: -3%;
     align-content: center;
-    margin-top: fit-content;
 }
 
 .productos img{
@@ -108,6 +128,7 @@
     background-color: yellow;
     width: fit-content;
     margin-left: 53%;
+    font-size: 20px;
 }
 
 .productos .imagen-2{
@@ -116,6 +137,8 @@
     margin-left: 27%;
     background-color: yellow;
     width: fit-content;
+    font-size: 25px;
+    text-align: center;
 }
 
 .productos .imagen-3{
@@ -124,6 +147,7 @@
     margin-left: 1%;
     width: fit-content;
     background-color: yellow;
+    font-size: 25px;
 }
 
 .productos .imagen-4{
@@ -131,16 +155,19 @@
     grid-row: 1/2;
     margin-left: -25%;
     background-color: yellow;
-    width: fit-content; 
+    width: fit-content;
+    font-size: 25px;
+    text-align: center;
 }
 
-
 .productos p{
+    font-size: 15px;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .productos a{
+    font-size: 25px;
     font-weight: bold;
     color: black;
 }
@@ -152,7 +179,7 @@
     background-color: rgb(3, 68, 80);
     display: grid;
     grid-template-columns:  0.5fr 1fr 1fr 1fr;
-    grid-template-rows: 0.6fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
 }
 
 .disney-plus .portada-1{
@@ -163,9 +190,8 @@
 .disney-plus .imagen-disney-1{
     width: 700px;
     height: 400px;
-    margin-top: -2%;
+    margin-top: -10%;
 }
-
 
 .disney-plus .portada-2{
     grid-column: 3/4;
@@ -175,7 +201,7 @@
 .disney-plus .imagen-disney-2{
     width: 700px;
     height: 400px;
-    margin-top: -2%;
+    margin-top: -11%;
 }
 
 .disney-plus .portada-3{
@@ -186,7 +212,7 @@
 .disney-plus .imagen-disney-3{
     width: 700px;
     height: 400px;
-    margin-top: -2%;
+    margin-top: -11%;
 }
 
 .disney-plus h2{
@@ -197,9 +223,41 @@
     margin-left: -10%;
 }
 
-.disney-plus p{
-    font-size: 1rem;
-    color: aliceblue;
+.disney-plus .disney-info-1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: -32%;
+    margin-bottom: 18%;
+}
+
+.disney-plus .disney-info-1 a{
+    color: white;
+    font-size: 25px;
+}
+
+.disney-plus .disney-info-2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: -34%;
+}
+
+.disney-plus .disney-info-2 a{
+    color: white;
+    font-size: 25px;
+}
+
+.disney-plus .disney-info-3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: -34%;
+}
+
+.disney-plus .disney-info-3 a{
+    color: white;
+    font-size: 25px;
 }
 /* FIN APARTADO VERDE */
 
@@ -225,6 +283,7 @@
 .estrenos .estreno-1{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: fit-content;
 }
 
 .estrenos .estreno-2{
@@ -247,16 +306,77 @@
     grid-row: 1/2;
 }
 
-
 .estrenos h3{
     font-size: 20px;
     color: black;
     text-align: center;
 }
 
-.estrenos p{
-    font-size: 1rem;
+.estrenos .Estreno-info-1{
+    font-size: 25px;
+    color: black;
+    text-align: left;
 }
+
+.estrenos .Estreno-info-1 h3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.estrenos .Estreno-info-2{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.estrenos .Estreno-info-2 h3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.estrenos .Estreno-info-3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.estrenos .Estreno-info-3 h3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.estrenos .Estreno-info-4{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.estrenos .Estreno-info-4 h3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.estrenos .Estreno-info-5{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.estrenos .Estreno-info-5 h3{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 1%;
+}
+
 
 /* FIN APARTADO DE ESTRENOS */
 
@@ -282,12 +402,27 @@
     grid-row: 1/1;
     margin-left: -15%;
     margin-top: 4%;
+    padding-bottom: 10%;
 }
 
 .parques .img-parque-1{
-    width: 850px;
+    width: 1100px;
     height: 500px;
     margin-top: 5%;
+    margin-left: -27%;
+}
+
+.parques .Detalles-parque-1{
+    font-size: 20px;
+    color: black;
+    text-align:center;
+    margin-left: -80%;
+}
+
+.parques .Detalles-parque-1 a{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .parques .parque-2{
@@ -298,9 +433,171 @@
 }
 
 .parques .img-parque-2{
-    width: 850px;
+    width: 1100px;
     height: 500px;
     margin-top: 5%;
+    margin-left: 2%;
+}
+
+.parques .Detalles-parque-2{
+    font-size: 20px;
+    color: black;
+    text-align:center;
+    margin-left: -28%;
+    margin-top: -0.4%;
+}
+
+.parques .Detalles-parque-2 a{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
 }
 /* FIN DE APARTADO DE VACACIONES*/
 
+
+/* INICIO DE APARTADO DE OFERTAS */
+.ofertas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ofertas .img-ofertas{
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    width: 100%;
+    height: 90%;
+}
+
+.info-ofertas{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 40px;
+    margin-right: 20%;
+    margin-top: 1%;
+    color: #11387a;
+
+}
+
+.info-ofertas .titulo-tarjeta{
+    margin-top: 42%;
+    margin-left: 5%;
+}
+
+.info-ofertas h4{
+    margin-top: -23%;
+    text-align: center;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.info-ofertas h5{
+    margin-top: -58%;
+    text-align: center;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info-ofertas .texto-1{
+    text-align: center;
+    margin-top: -37%;
+    margin-right: 20%;
+}
+
+.info-ofertas .texto-2{
+    text-align: center;
+    margin-top: -51%;
+    margin-right: 20%;
+}
+
+.info-ofertas .texto-3{
+    text-align: center;
+    margin-top: -71%;
+    margin-right: 20%;
+}
+
+.info-ofertas .button-learn{
+    color: white;
+    font-size: 40px;
+    background-color: rgb(147, 83, 206);
+    border-radius: 50px;
+    width: 420px;
+    height: 45%;
+    justify-items: center;
+    margin-top: -79%;
+    margin-left: 18%;
+}
+/* FIN DE APARTADO DE OFERTAS */
+
+
+/* INICIO FOOTER */
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 30px;
+    font-size: 25px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+    color: #0077cc;
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    font-size: 24px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #0077cc;
+}
+
+.logo-footer {
+    margin: 20px 0;
+}
+
+.logo-footer img {
+    width: 100px;
+    height: auto;
+}
+
+
+/* FINAL FOOTER */
