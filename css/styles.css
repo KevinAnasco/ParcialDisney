@@ -1,5 +1,5 @@
 *{
-    border: 1px solid blue;
+    border: 0px solid blue;
 }
 
 body{
@@ -35,6 +35,7 @@ form{
 .search-form form{
     display: flex;
     margin-top: 20px;
+    margin-left: 1000px;
 
 }
 
@@ -49,9 +50,8 @@ li{
 
 }
 
-.nav-grid ul li a {
+.nav-grid ul li {
     text-decoration: none;
-
   }
 
   /* TERMINA*/
@@ -366,4 +366,18 @@ li{
     margin-top: 5%;
 }
 /* FIN DE APARTADO DE VACACIONES*/
+
+.nav-footer ul{
+    
+    display: flex;
+    margin: 25px;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 60px; 
+}
+
+.nav-footer ul li  {
+    text-decoration: none;
+
+  }
 
