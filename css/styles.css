@@ -1,7 +1,61 @@
+*{
+    border: 1px solid blue;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-grid ul{
+    display: flex;
+    margin: 25px;
+    padding: 0px;
+    gap: 60px; 
+}
+
+header{
+    display: flex;
+    
+}
+
+nav{
+    display: flex;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+}
+
+.search-form form{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+li{
+    font-size: 40px;
+}
+
+.logo{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-grid ul li a {
+    text-decoration: none;
+
+  }
+
+
 .container{
     background-color: #eee;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .container .logo{
@@ -20,6 +74,8 @@
 .container li{
     text-align: left;
 }
+
+
 
 /* APARTADO FONDO INICIAL */
 .banner{
